@@ -813,7 +813,7 @@ a {
 }
 @media (min-width: 992px) {
   .cid-sFF0ciwnEL .navbar.collapsed.opened:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 4rem);
+    max-height: calc(98.5vh - 4.2rem);
   }
 }
 .cid-sFF0ciwnEL .navbar.collapsed .dropdown-menu .dropdown-submenu {
@@ -1073,7 +1073,7 @@ a {
 .cid-sFF3kfZheU {
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background-color: #566052;
+  background-image: url("../../../assets/images/grafismo-flores-verde-escuro.png");
 }
 .cid-sFF3kfZheU .item {
   padding-bottom: 2rem;
@@ -1326,7 +1326,7 @@ a {
   color: #d1d7d1;
 }
 .cid-sFF3kfZheU H3 {
-  color: #cec4bb;
+  color: #d1d7d1;
 }
 .cid-sFF75ZhH2d {
   padding-top: 6rem;
@@ -1350,7 +1350,157 @@ a {
   color: #584259;
 }
 .cid-sFF75ZhH2d .mbr-text {
-  color: #756576;
+  color: #241207;
+}
+.cid-ufvnwGxhev {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #584259;
+  overflow: hidden;
+}
+.cid-ufvnwGxhev .media-container-row .mbr-text {
+  color: #d3c3d3;
+}
+.cid-ufvisnsyxE {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-image: url("../../../assets/images/grafismo-lila-comin-lils-mdio.png");
+}
+.cid-ufvisnsyxE .mbr-overlay {
+  background: #756576;
+  opacity: 0.1;
+}
+.cid-ufvisnsyxE img,
+.cid-ufvisnsyxE .item-img {
+  width: 100%;
+}
+.cid-ufvisnsyxE .item:focus,
+.cid-ufvisnsyxE span:focus {
+  outline: none;
+}
+.cid-ufvisnsyxE .item-wrapper {
+  position: relative;
+}
+.cid-ufvisnsyxE .slide-content {
+  position: relative;
+  border-radius: 4px;
+  background: #fafafa;
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+  flex-flow: column nowrap;
+}
+@media (min-width: 992px) {
+  .cid-ufvisnsyxE .slide-content .item-content {
+    padding: 2rem 2rem 0;
+  }
+  .cid-ufvisnsyxE .slide-content .item-footer {
+    padding: 0 2rem 2rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-ufvisnsyxE .slide-content .item-content {
+    padding: 1rem 1rem 0;
+  }
+  .cid-ufvisnsyxE .slide-content .item-footer {
+    padding: 0 1rem 1rem;
+  }
+}
+.cid-ufvisnsyxE .mbr-section-btn {
+  margin-top: auto !important;
+}
+.cid-ufvisnsyxE .mbr-section-title {
+  color: #232323;
+  text-align: center;
+}
+.cid-ufvisnsyxE .mbr-text,
+.cid-ufvisnsyxE .mbr-section-btn {
+  text-align: left;
+}
+.cid-ufvisnsyxE .item-title {
+  text-align: left;
+  color: #584259;
+}
+.cid-ufvisnsyxE .item-subtitle {
+  text-align: left;
+  color: #584259;
+}
+.cid-ufvisnsyxE .embla__slide {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  min-width: 410px;
+  max-width: 410px;
+}
+@media (max-width: 768px) {
+  .cid-ufvisnsyxE .embla__slide {
+    min-width: 70%;
+    max-width: initial;
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
+  }
+}
+.cid-ufvisnsyxE .embla__button--next,
+.cid-ufvisnsyxE .embla__button--prev {
+  display: flex;
+}
+.cid-ufvisnsyxE .embla__button {
+  top: 50%;
+  width: 60px;
+  height: 60px;
+  margin-top: -1.5rem;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  transition: all 0.3s;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cid-ufvisnsyxE .embla__button:disabled {
+  cursor: default;
+  display: none;
+}
+.cid-ufvisnsyxE .embla__button:hover {
+  background: #000;
+  color: rgba(255, 255, 255, 0.5);
+}
+.cid-ufvisnsyxE .embla__button.embla__button--prev {
+  left: 0;
+  margin-left: 2.5rem;
+}
+.cid-ufvisnsyxE .embla__button.embla__button--next {
+  right: 0;
+  margin-right: 2.5rem;
+}
+@media (max-width: 767px) {
+  .cid-ufvisnsyxE .embla__button {
+    top: auto;
+  }
+}
+.cid-ufvisnsyxE .embla {
+  position: relative;
+  width: 100%;
+}
+.cid-ufvisnsyxE .embla__viewport {
+  overflow: hidden;
+  width: 100%;
+}
+.cid-ufvisnsyxE .embla__viewport.is-draggable {
+  cursor: grab;
+}
+.cid-ufvisnsyxE .embla__viewport.is-dragging {
+  cursor: grabbing;
+}
+.cid-ufvisnsyxE .embla__container {
+  display: flex;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  -webkit-tap-highlight-color: transparent;
 }
 .cid-ufuYg715hj {
   padding-top: 5rem;
