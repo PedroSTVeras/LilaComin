@@ -1384,7 +1384,7 @@ a {
 .cid-ufvisnsyxE .slide-content {
   position: relative;
   border-radius: 4px;
-  background: #fafafa;
+  background: #cec4bb;
   height: 100%;
   display: flex;
   overflow: hidden;
@@ -1459,6 +1459,11 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media (max-width: 768px) {
+  .cid-ufvisnsyxE .embla__button {
+    display: none;
+  }
 }
 .cid-ufvisnsyxE .embla__button:disabled {
   cursor: default;
