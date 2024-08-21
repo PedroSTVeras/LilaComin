@@ -1035,7 +1035,7 @@ a {
   }
 }
 .cid-uf8obkqhem {
-  background-image: url("../../../assets/images/grafismo-flores-bege-claro.png");
+  background-image: url("../../../assets/images/grafismo-flores-bege-claro-1.png");
 }
 .cid-uf8obkqhem .mbr-fallback-image.disabled {
   display: none;
@@ -1059,16 +1059,17 @@ a {
   font-size: 32px;
   border-radius: 50%;
   padding: 0.6rem;
-  border: 2px solid #232323;
+  border: 2px solid #584259;
   transition: all 0.3s;
-  color: #232323;
+  color: #584259;
 }
 .cid-uf8obkqhem .social-row .soc-item .mbr-iconfont:hover {
-  background-color: #232323;
+  background-color: #584259;
   color: #ffffff;
 }
 .cid-uf8obkqhem .mbr-section-title {
   color: #584259;
+  text-align: center;
 }
 .cid-uf8obkqhem .mbr-text,
 .cid-uf8obkqhem .mbr-section-btn,
@@ -1095,9 +1096,10 @@ a {
 }
 .cid-sFF75ZhH2d .mbr-section-title {
   color: #584259;
+  text-align: center;
 }
 .cid-sFF75ZhH2d .mbr-text {
-  color: #241207;
+  color: #584259;
 }
 .cid-ufvnwGxhev {
   padding-top: 30px;
@@ -1277,10 +1279,11 @@ a {
   }
 }
 .cid-um24LAEarm .mbr-section-title {
-  color: #ffffff;
+  color: #584259;
+  text-align: center;
 }
 .cid-um24LAEarm .mbr-text {
-  color: #ffffff;
+  color: #584259;
 }
 .cid-um24LAEarm .mbr-description {
   text-align: left;
@@ -1288,7 +1291,7 @@ a {
 .cid-ufuYg715hj {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background: #d1d7d1;
+  background: #b89e93;
 }
 .cid-ufuYg715hj .mbr-fallback-image.disabled {
   display: none;
@@ -1363,90 +1366,8 @@ a {
   color: #584259;
 }
 .cid-ufuYg715hj .mbr-section-title {
-  color: #566052;
+  color: #584259;
 }
-.cid-ufuYhucnQQ {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  background-color: #241207;
-}
-.cid-ufuYhucnQQ .mbr-fallback-image.disabled {
-  display: none;
-}
-.cid-ufuYhucnQQ .mbr-fallback-image {
-  display: block;
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-}
-.cid-ufuYhucnQQ .socicon-bg-facebook {
-  background: #1778f2;
-  color: #ffffff;
-}
-.cid-ufuYhucnQQ .socicon-bg-facebook:hover {
-  background: #0b60cb;
-}
-.cid-ufuYhucnQQ .socicon-bg-twitter {
-  background: #1da1f2;
-  color: #ffffff;
-}
-.cid-ufuYhucnQQ .socicon-bg-twitter:hover {
-  background: #0c85d0;
-}
-.cid-ufuYhucnQQ .socicon-bg-vkontakte {
-  background: #4680C2;
-  color: #ffffff;
-}
-.cid-ufuYhucnQQ .socicon-bg-vkontakte:hover {
-  background: #3567a0;
-}
-.cid-ufuYhucnQQ .socicon-bg-odnoklassniki {
-  background: #ee8208;
-  color: #ffffff;
-}
-.cid-ufuYhucnQQ .socicon-bg-odnoklassniki:hover {
-  background: #bd6706;
-}
-.cid-ufuYhucnQQ .socicon-bg-pinterest {
-  background: #e60023;
-  color: #ffffff;
-}
-.cid-ufuYhucnQQ .socicon-bg-pinterest:hover {
-  background: #b3001b;
-}
-.cid-ufuYhucnQQ .socicon-bg-mail {
-  background: #005ff9;
-  color: #ffffff;
-}
-.cid-ufuYhucnQQ .socicon-bg-mail:hover {
-  background: #004cc6;
-}
-.cid-ufuYhucnQQ .btn-social {
-  font-size: 32px;
-  border-radius: 50%;
-  padding: 0;
-  width: 55px;
-  height: 55px;
-  line-height: 55px;
-  position: relative;
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
-  border: none !important;
-  border-radius: 0 !important;
-}
-.cid-ufuYhucnQQ .btn-social i {
-  top: 0;
-  line-height: 55px;
-  width: 55px;
-}
-.cid-ufuYhucnQQ [class^="socicon-"]:before,
-.cid-ufuYhucnQQ [class*=" socicon-"]:before {
-  line-height: 55px;
-}
-.cid-ufuYhucnQQ .mbr-section-title,
-.cid-ufuYhucnQQ .mbr-social-likes {
-  color: #cec4bb;
+.cid-ufuYg715hj .card-title {
+  color: #584259;
 }
