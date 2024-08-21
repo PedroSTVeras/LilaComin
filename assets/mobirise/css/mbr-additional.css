@@ -1101,22 +1101,33 @@ a {
 .cid-sFF75ZhH2d .mbr-text {
   color: #584259;
 }
-.cid-ufvnwGxhev {
-  padding-top: 30px;
-  padding-bottom: 30px;
+.cid-um65dFc0Xf {
+  padding-top: 2rem;
+  padding-bottom: 0rem;
   background-color: #584259;
-  overflow: hidden;
 }
-.cid-ufvnwGxhev .media-container-row .mbr-text {
+.cid-um65dFc0Xf .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-um65dFc0Xf .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-um65dFc0Xf .mbr-section-title {
   color: #d3c3d3;
 }
 .cid-ufvisnsyxE {
-  padding-top: 6rem;
+  padding-top: 1rem;
   padding-bottom: 6rem;
-  background-image: url("../../../assets/images/grafismo-lila-comin-lils-mdio.png");
+  background-image: url("../../../assets/images/grafismo-lila-comin-bege-claro.png");
 }
 .cid-ufvisnsyxE .mbr-overlay {
-  background: #756576;
+  background: #584259;
   opacity: 0.1;
 }
 .cid-ufvisnsyxE img,
@@ -1133,7 +1144,7 @@ a {
 .cid-ufvisnsyxE .slide-content {
   position: relative;
   border-radius: 4px;
-  background: #cec4bb;
+  background: #584259;
   height: 100%;
   display: flex;
   overflow: hidden;
@@ -1153,7 +1164,7 @@ a {
   margin-top: auto !important;
 }
 .cid-ufvisnsyxE .mbr-section-title {
-  color: #232323;
+  color: #756576;
   text-align: center;
 }
 .cid-ufvisnsyxE .mbr-text,
@@ -1166,7 +1177,7 @@ a {
 }
 .cid-ufvisnsyxE .item-subtitle {
   text-align: left;
-  color: #584259;
+  color: #d1d7d1;
 }
 .cid-ufvisnsyxE .embla__slide {
   display: flex;
