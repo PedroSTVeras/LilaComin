@@ -1302,7 +1302,7 @@ a {
 .cid-ufuYg715hj {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background: #b89e93;
+  background-image: url("../../../assets/images/grafismo-lila-comin-verde-claro.png");
 }
 .cid-ufuYg715hj .mbr-fallback-image.disabled {
   display: none;
@@ -1356,7 +1356,7 @@ a {
 .cid-ufuYg715hj .card-wrapper {
   display: flex;
   border-radius: 4px;
-  background: #fafafa;
+  background: #ffffff;
 }
 .cid-ufuYg715hj .card-wrapper:not(:nth-last-child(1)) {
   margin-bottom: 2rem;
@@ -1377,8 +1377,11 @@ a {
   color: #584259;
 }
 .cid-ufuYg715hj .mbr-section-title {
-  color: #584259;
+  color: #566052;
 }
 .cid-ufuYg715hj .card-title {
+  color: #584259;
+}
+.cid-ufuYg715hj P {
   color: #584259;
 }
