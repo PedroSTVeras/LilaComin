@@ -3,19 +3,19 @@ body {
 }
 .display-1 {
   font-family: 'All Round Gothic W03 Book';
-  font-size: 7rem;
+  font-size: 5rem;
   line-height: 1.1;
 }
 .display-1 > .mbr-iconfont {
-  font-size: 8.75rem;
+  font-size: 6.25rem;
 }
 .display-2 {
   font-family: 'Scandia-Regular';
-  font-size: 4rem;
+  font-size: 3rem;
   line-height: 1.1;
 }
 .display-2 > .mbr-iconfont {
-  font-size: 5rem;
+  font-size: 3.75rem;
 }
 .display-4 {
   font-family: 'Scandia-Regular';
@@ -27,19 +27,19 @@ body {
 }
 .display-5 {
   font-family: 'Scandia-Regular';
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: 1.5;
 }
 .display-5 > .mbr-iconfont {
-  font-size: 2.5rem;
+  font-size: 1.875rem;
 }
 .display-7 {
   font-family: 'Scandia-Regular';
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 1.5;
 }
 .display-7 > .mbr-iconfont {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
@@ -48,19 +48,19 @@ body {
 /* 0.65 - min scale variable, may vary */
 @media (max-width: 992px) {
   .display-1 {
-    font-size: 5.6rem;
+    font-size: 4rem;
   }
 }
 @media (max-width: 768px) {
   .display-1 {
-    font-size: 4.9rem;
-    font-size: calc( 3.0999999999999996rem + (7 - 3.0999999999999996) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.1 * (3.0999999999999996rem + (7 - 3.0999999999999996) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 3.5rem;
+    font-size: calc( 2.4rem + (5 - 2.4) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.1 * (2.4rem + (5 - 2.4) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
-    font-size: 3.2rem;
-    font-size: calc( 2.05rem + (4 - 2.05) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.3 * (2.05rem + (4 - 2.05) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 2.4rem;
+    font-size: calc( 1.7rem + (3 - 1.7) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.3 * (1.7rem + (3 - 1.7) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-4 {
     font-size: 0.88rem;
@@ -68,14 +68,14 @@ body {
     line-height: calc( 1.4 * (1.0350000000000001rem + (1.1 - 1.0350000000000001) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
-    font-size: 1.6rem;
-    font-size: calc( 1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.2rem;
+    font-size: calc( 1.175rem + (1.5 - 1.175) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.175rem + (1.5 - 1.175) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-7 {
-    font-size: 0.96rem;
-    font-size: calc( 1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 0.8rem;
+    font-size: calc( 1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20))));
   }
 }
 /* Buttons */
@@ -519,17 +519,12 @@ a.text-black.active {
   color: #000000 !important;
 }
 a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-caption) {
+  transition: 0.2s;
   position: relative;
-  background-image: transparent;
+  background-image: linear-gradient(currentColor 50%, currentColor 50%);
   background-size: 10000px 2px;
   background-repeat: no-repeat;
-  background-position: 0px 1.2em;
-  background-position: -10000px 1.2em;
-}
-a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-caption):hover {
-  transition: background-position 2s ease-in-out;
-  background-image: linear-gradient(currentColor 50%, currentColor 50%);
-  background-position: 0px 1.2em;
+  background-position: 0 1.2em;
 }
 .nav-tabs .nav-link.active {
   color: #584259;
@@ -1127,8 +1122,8 @@ a {
   background-image: url("../../../assets/images/grafismo-lila-comin-bege-claro.png");
 }
 .cid-ufvisnsyxE .mbr-overlay {
-  background: #584259;
-  opacity: 0.1;
+  background: #d1d7d1;
+  opacity: 0.8;
 }
 .cid-ufvisnsyxE img,
 .cid-ufvisnsyxE .item-img {
@@ -1299,15 +1294,15 @@ a {
 .cid-um24LAEarm .mbr-description {
   text-align: left;
 }
-.cid-ufuYg715hj {
+.cid-umyIf3NR0g {
   padding-top: 5rem;
   padding-bottom: 5rem;
   background-image: url("../../../assets/images/grafismo-lila-comin-verde-claro.png");
 }
-.cid-ufuYg715hj .mbr-fallback-image.disabled {
+.cid-umyIf3NR0g .mbr-fallback-image.disabled {
   display: none;
 }
-.cid-ufuYg715hj .mbr-fallback-image {
+.cid-umyIf3NR0g .mbr-fallback-image {
   display: block;
   background-size: cover;
   background-position: center center;
@@ -1316,72 +1311,37 @@ a {
   position: absolute;
   top: 0;
 }
-@media (max-width: 767px) {
-  .cid-ufuYg715hj .row {
-    flex-direction: column-reverse;
-  }
-  .cid-ufuYg715hj .row .map-wrapper {
-    margin-bottom: 2rem;
-  }
-}
-.cid-ufuYg715hj .google-map {
-  height: 100%;
-  position: relative;
-}
-.cid-ufuYg715hj .google-map iframe {
-  height: 100%;
-  width: 100%;
-}
-.cid-ufuYg715hj .google-map [data-state-details] {
-  color: #6b6763;
-  height: 1.5em;
-  margin-top: -0.75em;
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-  position: absolute;
-  text-align: center;
-  top: 50%;
-  width: 100%;
-}
-.cid-ufuYg715hj .google-map[data-state] {
-  background: #e9e5dc;
-}
-.cid-ufuYg715hj .google-map[data-state="loading"] [data-state-details] {
-  display: none;
-}
-.cid-ufuYg715hj .image-wrapper {
+.cid-umyIf3NR0g .image-wrapper {
   display: flex;
   align-items: center;
 }
-.cid-ufuYg715hj .card-wrapper {
+.cid-umyIf3NR0g .card-wrapper {
+  margin-bottom: 2rem;
   display: flex;
   border-radius: 4px;
-  background: #ffffff;
-}
-.cid-ufuYg715hj .card-wrapper:not(:nth-last-child(1)) {
-  margin-bottom: 2rem;
+  background: #fafafa;
 }
 @media (max-width: 991px) {
-  .cid-ufuYg715hj .card-wrapper {
+  .cid-umyIf3NR0g .card-wrapper {
     padding: 1rem 2rem;
   }
 }
 @media (min-width: 992px) {
-  .cid-ufuYg715hj .card-wrapper {
+  .cid-umyIf3NR0g .card-wrapper {
     padding: 2rem 4rem;
   }
 }
-.cid-ufuYg715hj .mbr-iconfont {
+.cid-umyIf3NR0g .mbr-iconfont {
   font-size: 2rem;
   padding-right: 1.5rem;
   color: #584259;
 }
-.cid-ufuYg715hj .mbr-section-title {
+.cid-umyIf3NR0g .mbr-section-title {
   color: #566052;
 }
-.cid-ufuYg715hj .card-title {
+.cid-umyIf3NR0g .card-title {
   color: #584259;
 }
-.cid-ufuYg715hj P {
+.cid-umyIf3NR0g P {
   color: #584259;
 }
